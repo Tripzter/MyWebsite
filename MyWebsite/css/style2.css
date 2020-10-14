@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700;1,900&display=swap');
+
+html, body {
+    background: rgb(255,217,61);
+    background: linear-gradient(108deg, rgba(255,217,61,1) 0%, rgba(137,218,249,1) 50%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.MainTable {
+    width: 700px;
+    margin: 20px auto;
+    font-family: 'Lato', serif;
+    font-size: 0;
+    display: table;
+    line-height: 15px;
+    box-shadow: 3px 5px 5px black;
+}
+
+.TableRow {
+    display: table-row;
+}
+
+.leftside {
+    width: 500px;
+    padding-left: 30px; 
+    padding-top: 30px; 
+    padding-right: 30px;
+    padding-bottom: 20px;
+    display: table-cell;
+    background-color: #ffffff;
+}
+
+.leftsideHeading {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px; 
+    font-weight: 900; 
+    color: #153d70;
+}
+
+.line1 {
+    margin-top: 30px;
+}
+
+.line2 {
+    margin-bottom: 10px;
+}
+
+.workRow {
+    display: table-row;
+}
+
+.workDates {
+    width: 100px;
+    display: table-cell;
+}
+
+.workPlace {
+    width: 400px;
+    display: table-cell;
+}
+
+.interestList {
+    font-size: 12px;
+}
+
+ul li {
+    padding-top: 5px;
+}
+
+.rightside {
+    width: 200px;
+    display: table-cell;
+    background: #153d70; 
+    color: #ffffff;
+}
+
+.leftsidenormaltext {
+    font-size: 12px;
+}
+
+.leftsideboldtext {
+    font-size: 14px; 
+    font-weight: 900;
+}
+
+.cvName {
+    padding-left: 15px; 
+    padding-top: 35px; 
+    padding-right: 15px;
+    font-size: 28px; 
+    font-weight: 700;
+}
+
+.currentJob {
+    padding-left: 15px; 
+    padding-top: 15px; 
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.rightsideHeading {
+    padding-left: 15px; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    background: #0e2e55;
+    font-size: 18px; 
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rightsidenormaltext {
+    padding-left: 15px; 
+    padding-top: 15px; 
+    padding-right: 15px;
+    font-size: 12px;
+}
+
+.rightsidelinktext {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
+}
+
+.rightsideboldtext {
+    padding-left: 15px; 
+    padding-top: 15px; 
+    padding-right: 15px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.skillbar {
+    width: 150px;
+    height: 15px;
+    margin-left: 15px; 
+    margin-right: 15px;
+    font-size: 12px;
+}
